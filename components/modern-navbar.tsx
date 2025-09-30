@@ -159,8 +159,8 @@ export function ModernNavbar() {
             )}
           </div>
 
-          {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center gap-3">
+          {/* Mobile Menu Button - Moved to the right */}
+          <div className="md:hidden flex items-center gap-3 ml-auto">
             {!user && (
               <Link
                 href="/login"
